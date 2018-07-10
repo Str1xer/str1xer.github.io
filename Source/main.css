@@ -7,7 +7,7 @@ img {
 	display: inline-block;
 }
 a {
-	transition: 0.2s;
+	transition: 0.3s;
 }
 
 .header {
@@ -165,7 +165,7 @@ p.footerSocialIcons a:hover{
 	padding-right: 23px;
 	padding-left: 23px;
 	margin-bottom: 13px;
-	transition: 0.2s;
+	transition: 0.3s;
 }
 .button:hover {
 	color: #061634;
