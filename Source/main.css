@@ -46,6 +46,9 @@ a {
 	bottom: 50px;
 	left: 50%;
 }
+.headerArrow a {
+	color: #fff;
+}
 .container {
 	width: 1140px;
 	margin: auto;
