@@ -78,7 +78,7 @@ a {
 	margin-right: 0px;
 }
 .colItems {
-	border: 1px solid gray;
+	border: 1px solid #ccc;
 	border-radius: 5px;
 	overflow: hidden;
 }
