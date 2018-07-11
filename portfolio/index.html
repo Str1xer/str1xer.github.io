@@ -3,14 +3,15 @@
 	<title>Портфолио</title>
 	<link href="https://fonts.googleapis.com/css?family=Merriweather|PT+Sans+Caption&amp;subset=cyrillic" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="source/main.css">
+	<link rel="stylesheet" type="text/css" href="Source/main.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </header>
 <body>
 	<div class="header">
 			<div class="headerTitle">Егор Лаврухин</div>
 			<div class="headerSlogan">Верстка сайтов на HTML и CSS<br> HTML5 CSS3 JS</div>
-			<div class="headerArrow"><i class="fas fa-angle-down"></i></div>	
+			<div class="headerArrow"><a href=".portfolio" cla><i class="fas fa-angle-down"></i></a></div>	
 	</div>
 	<div class="portfolio">
 		<div class="container">
@@ -64,5 +65,15 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		$(function(){
+		  $('a[href^="."]').on('click', function(event) {
+		    event.preventDefault();
+		    var sc = $(this).attr("href"),
+		        dn = $(sc).offset().top;
+		    $('html, body').animate({scrollTop: dn}, 1000);
+		  });
+		});
+	</script>
 </body>
 </html>
