@@ -60,6 +60,7 @@ a {
 	background: black;
 	transition: 0.3s;
 	border-radius: 5px;
+	position: relative;
 }
 .block1 img {
 	width: 100%;
@@ -69,6 +70,7 @@ a {
 	cursor: pointer;
 }
 .col-6 {
+	position: relative;
 	border-radius: 5px;
 	margin-top: 20px;
 	margin-right: 20px;
@@ -90,6 +92,27 @@ a {
 }
 .col-6:last-child {
 	margin-right: 0px;
+}
+.items {
+	text-align: left;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	width: 100%;
+	color: white;
+	padding-left: 25px;
+	padding-bottom: 25px;
+	padding-top: 10px;
+	padding-right: 25px;
+	background:rgba(0,0,0,0.6);
+	cursor: pointer;
+	transition: 0.3s;
+}
+.block1:hover .items {
+	padding-bottom: 30px;
+}
+.col-6:hover .items {
+	padding-bottom: 30px;
 }
 
 .footer {
@@ -203,6 +226,12 @@ p.footerSocialIcons a:hover{
 		padding-right: 15px;
 		text-align: center;
 		right: 15px;
+	}
+	.items {
+		padding-top: 0px;
+		padding-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.footer {
 		padding-bottom: 75px;
