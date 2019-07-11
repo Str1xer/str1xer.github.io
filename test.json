@@ -1,1 +1,6 @@
-"OnlineKey" : "1234554321"
+{
+  "Online": [{
+    "key": "1234554321",
+    "status: "online"
+  }]
+}
