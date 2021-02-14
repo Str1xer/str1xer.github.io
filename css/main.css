@@ -1332,6 +1332,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#292e49",endCo
         align-items:center;
         display:-webkit-box;
         display:flex;
+        margin: auto;
     }
     .navbar-link::after{
         display:none
