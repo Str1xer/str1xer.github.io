@@ -1,0 +1,99 @@
+@font-face {
+  font-family: 'GilroyHeavy';
+  src: url(../gilroy-heavy.ttf); 
+}
+
+@font-face {
+  font-family: 'GilroyBold';
+  src: url(../gilroy-bold.ttf); 
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url("./6890.jpg");
+}
+
+#container {
+	position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.8);
+    overflow:hidden;
+}
+
+#outer_box {
+	position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 60px;
+    border: 40px solid rgba(214,8,154,0.8);
+}
+
+#inner_box {
+	position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 40px;
+}
+
+#text_box{
+	position: relative;
+	height: 100%;
+  	margin-top: 100px;
+	color: #fff;
+	font-family: "GilroyHeavy";
+	font-size: 34px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#text_box span{
+	font-family: "GilroyBold";
+	color: rgba(214,8,154, 1);
+}
+
+.download-icon{
+	fill: #fff;
+	width: 72px;
+}
+
+#download {
+	position: relative;
+	top: 0px;
+	color: #fff;
+	font-family: "GilroyHeavy";
+	font-size: 34px;
+	text-decoration: none;
+}
+
+#image {
+	margin: auto;
+    margin-top: 250px;
+	margin-left: 50px;
+	width: 90%;
+}
+
+#outer_box {
+	position: relative;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 60px;	
+    align-content: center;
+}
