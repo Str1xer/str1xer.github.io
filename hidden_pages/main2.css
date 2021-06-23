@@ -11,6 +11,8 @@
 *{
 	margin: 0;
 	padding: 0;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body{
@@ -96,4 +98,50 @@ body{
     right: 0;
     margin: 60px;	
     align-content: center;
+}
+
+#button_box 
+{
+    position: fixed;
+    position: absolute;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 40px;
+}
+
+#button_box.hide
+{
+    height: 0;
+    visibility: hidden;
+}
+
+#cont_box{
+    visibility: hidden;
+    height: 0;
+}
+
+#cont_box.vis{
+    visibility: visible;
+}
+
+#open {
+    position: relative;
+    height: auto;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0; 
+    align-content: center;
+    background-color: red;
+}
+
+.Present {
+    margin-top: 500px;
+    width: 60%;   
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }

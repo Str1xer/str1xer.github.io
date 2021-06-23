@@ -30,6 +30,31 @@
 					</a>
 			</div>
 		</div>
+		<div id="button_box">
+			<a id="open" href=""><img src="./Present1.svg" class="Present"></img></a>
+		</div>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+	<script>
+ 	var daysInWeek = 1;
+	$(document).ready(function(){
+		$('#open').click(function(){
+			if (daysInWeek == 3){
+				$('#cont_box').toggleClass('vis');	
+				$('#button_box').toggleClass('hide');
+			}
+			else {
+				if (daysInWeek == 1){
+					$('.Present').attr('src', './Present2.svg')
+				}
+				else{
+					$('.Present').attr('src', './Present3.svg')
+				}
+				daysInWeek++;
+			}
+			return false;
+		});				
+	});
+	</script>
 </body>
 </html>
